@@ -1,4 +1,6 @@
 <template>
+  <!-- 置顶进度条 -->
+  <base-top-progress-bar />
   <div class="container">
     <div class="btn_group">
       <!-- 主题切换 -->
@@ -56,6 +58,7 @@ const icon = computed(() => (isDark.value ? 'moon' : 'sunny'))
   flex-direction: column;
   gap: 30px;
   align-items: center;
+
   .btn_group {
     display: flex;
     gap: 20px;

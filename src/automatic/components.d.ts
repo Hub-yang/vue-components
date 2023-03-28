@@ -8,6 +8,7 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BaseCount: typeof import('./../components/BaseCount.vue')['default']
+    BaseTopProgressBar: typeof import('./../components/BaseTopProgressBar.vue')['default']
     ElButon: typeof import('element-plus/es')['ElButon']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElButtonGroup: typeof import('element-plus/es')['ElButtonGroup']

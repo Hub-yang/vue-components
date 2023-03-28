@@ -9,3 +9,9 @@ const locale = zhCn
     <router-view></router-view>
   </el-config-provider>
 </template>
+
+<style>
+body {
+  height: 2000px;
+}
+</style>
