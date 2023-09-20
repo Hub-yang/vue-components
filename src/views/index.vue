@@ -27,12 +27,15 @@
   </div>
 </template>
 <script setup>
+
 import BaseCount from '@/components/BaseCount.vue'
 import ShowMoreText from '@/views/showMoreText/ShowMoreText.vue'
+import BaseEchart from '@/views/baseEcharts/Index.vue'
 
 const componentsList = [
   { title: '计数', com: BaseCount },
   { title: '文本展开折叠', com: ShowMoreText },
+  { title: 'echarts', com: BaseEchart },
 ]
 
 const curIndex = ref(0)
